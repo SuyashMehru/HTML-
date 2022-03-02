@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    <style>
+        .navbar {
+            background-color: rgb(29, 161, 242);
+            border-radius: 50px;
+
+        }
+
+        .navbar li {
+
+            float: left;
+            list-style: none;
+            margin: 6px 3px;
+
+        }
+
+        .navbar ul {
+            overflow: auto;
+        }
+
+        .navbar li a {
+            padding: 2px 2px;
+            color: white;
+            text-decoration: none;
+            cursor: pointer;
+        }
+         a :hover{
+            color: rgb(5, 5, 5);
+        }
+
+        .search{
+            float: right;
+        }
+        .navbar input{
+            border: 2px solid rgb(29, 161, 242);;
+            border-radius: 24px;
+            padding: 2px 2px;
+            margin: 2px 2px;
+
+
+        }
+        .navbar li a:hover {
+            padding: 2px 2px;
+            color: black;
+            text-decoration: none;
+            cursor: pointer;}
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li> <a href="www.google.com">Home</a> </li>
+                <li> <a href="www.facebook.com">Contact Us</a> </li>
+                <li> <a href="www.twitter.com">ABout</a> </li>
+                <li> <a href="https://web.whatsapp.com/">Exit</a> </li>
+                <div class="search"> <input type="text" name="search" id="search" placeholder="search the bar" >
+                </div>
+            </ul>
+
+        </nav>
+    </header>
+
+</body>
+
+</html>
